@@ -1,7 +1,6 @@
 var pubs = require('../mocks/pubs.json');
 var moment = require('moment');
 
-
 function allPubs() {
     return pubs;
 }
