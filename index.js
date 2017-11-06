@@ -1,9 +1,8 @@
 var pubService = require('./services/pubs.services');
+var moment = require('moment');
 
 pubService.listAllPubs();
-
-//pubs = pubService.allPubs();
-//console.log(pubs[0]);
+pubService.listDisponiblePubs();
 
 module.exports = {
     services: {

@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/deltahammerfest/pub-services/issues"
   },
-  "homepage": "https://github.com/deltahammerfest/pub-services#readme"
+  "homepage": "https://github.com/deltahammerfest/pub-services#readme",
+  "dependencies": {
+    "moment": "^2.19.1"
+  }
 }
