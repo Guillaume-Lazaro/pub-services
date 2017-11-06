@@ -12,7 +12,7 @@ function listAllPubs() {
 }
 
 function listDisponiblePubs() {
-    console.log('Pubs disponible : ');
+    console.log('Pubs disponible aujourd\'hui: ');
 
     var today = moment().format('dddd');
     pubs.forEach(function(pub) {
