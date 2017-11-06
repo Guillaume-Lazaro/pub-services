@@ -23,5 +23,29 @@
         "name": "Triple Karmeliet"
       }
     ]
+  },
+  {
+    "name": "Sur Mesure",
+    "owner": {
+      "firstName": "Jean",
+      "lastName": "Dupont",
+      "mail": "jdupont@gmail.com"
+    },
+    "openDays": [
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "openHours": {
+      "start": 9,
+      "end": 2
+    },
+    "beers": [
+      {
+        "type": "Brune",
+        "name": "Triple Moine"
+      }
+    ]
   }
 ]

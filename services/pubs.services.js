@@ -1,14 +1,25 @@
-var speak= require('./speak');
-var Math= require('./Math');
-const _ = require('lodash');
+var pubs = require('../mocks/pubs.json')
 
-// 2éme exercice:
-var a = 5;
-var b = 3;
+/*function allPubs() {
+    var allPubs = new Array();
 
-console.log(Math.add('b',b));
-console.log(Math.sub(a,b));
-console.log(Math.mult(a,b));
-console.log(Math.div(a,b));
+    pubs.forEach(function(pub) {
+        allPubs += pub;
+    });
+    return allPubs;
+}*/
 
+function listAllPubs() {
+    pubs.forEach(function(pub) {
+        console.log(pub.name)
+    });
+}
 
+function listDisponiblePubs() {
+
+}
+
+module.exports = {
+    listAllPubs : listAllPubs,
+    allPubs : allPubs
+};

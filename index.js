@@ -1,14 +1,12 @@
-var speak= require('./speak');
-var Math= require('./Math');
-const _ = require('lodash');
+var pubService = require('./services/pubs.services');
 
-// 2éme exercice:
-var a = 5;
-var b = 3;
+pubService.listAllPubs();
 
-console.log(Math.add('b',b));
-console.log(Math.sub(a,b));
-console.log(Math.mult(a,b));
-console.log(Math.div(a,b));
+//pubs = pubService.allPubs();
+//console.log(pubs[0]);
 
-
+module.exports = {
+    services: {
+        pubService : pubService
+    }
+};
