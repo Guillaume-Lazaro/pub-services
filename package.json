@@ -1,0 +1,24 @@
+{
+  "name": "pub-services",
+  "version": "1.0.0",
+  "description": "A services to verify pub's disponibility.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltahammerfest/pub-services.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltahammerfest/pub-services/issues"
+  },
+  "homepage": "https://github.com/deltahammerfest/pub-services#readme"
+}
